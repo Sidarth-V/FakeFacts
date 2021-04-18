@@ -1,4 +1,4 @@
-absl-py==0.12.0
+pip install scikit-buildabsl-py==0.12.0
 alabaster==0.7.12
 albumentations==0.1.12
 altair==4.1.0
@@ -56,6 +56,7 @@ defusedxml==0.7.1
 descartes==1.1.0
 dill==0.3.3
 distributed==1.25.3
+distro==1.5.0
 dlib==19.18.0
 dm-tree==0.1.6
 docopt==0.6.2
@@ -298,6 +299,7 @@ resampy==0.2.2
 retrying==1.3.3
 rpy2==3.4.3
 rsa==4.7.2
+scikit-build==0.11.1
 scikit-image==0.16.2
 scikit-learn==0.22.2.post1
 scipy==1.4.1
