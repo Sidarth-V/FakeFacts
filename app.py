@@ -52,8 +52,6 @@ x=[x,]
 pred = model.predict(x)
 print('THE GIVEN NEWS ARTICLE IS ' + str(pred))
 
-
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -65,8 +63,6 @@ def handle_data():
     projectpath = request.form['w-node-3d38e3e1fc94-544794fd']
     pred = model.predict(str(projectpath))
     return str(pred)
-
-
 
 if __name__ == '__main__':
     app.run()
